@@ -17,10 +17,8 @@ Refatoramento do código para incluir funções para cada operação. Além diss
 - Função criar conta deve armazenar contas em uma lista. Uma conta é composta por agência (número fixo: "0001"), número da conta (sequencial iniciando em 1) e usuário (pode ter mais de uma conta, porém cada conta pertence a somente 1 usuário).
 
 **Versão 3**:
-Refatoramento final do código para incluir classes. Além disso, duas novas funções foram criadas para cadastrar clientes e cadastrar conta bancária. Sistema desenvolvido seguindo as especificações abaixo, em adição às da primeira versão:
+Refatoramento final do código para incluir classes. Classes foram criadas para clientes e contas, conforme orientação do desafio. Além disso:
 
-- Função saque deve receber os argumentos apenas pelo nome
-- Função depósito deve receber os argumentos apenas por posição
-- Função extrato deve receber os argumentos por posição e nome - argumentos posicionais: saldo / argumentos nomeados: extrato
-- Função de criar usuário deve armazenar usuários em uma lista, contendo nome (string), DOB(string), CPF(string - não pode ser repetido) e endereço (string no formato "logradouro - nro - bairro - cidade/sigla estado")
-- Função criar conta deve armazenar contas em uma lista. Uma conta é composta por agência (número fixo: "0001"), número da conta (sequencial iniciando em 1) e usuário (pode ter mais de uma conta, porém cada conta pertence a somente 1 usuário).
+- Refatoramento de funções para funcionar com classes
+- Inclusão de função para filtrar clientes e escolher dentre as contas cadastradas para o cliente
+- Classes utilizam conceitos de poliformismo, herança, classes abstratas e encapsulamento
